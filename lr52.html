@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<script src = "lr52.js"></script>
+    <meta charset="utf-8" />
+    <title>Опрос по ОмГТУ</title>
+</head>
+<body>
+	<form>
+		<h2>Опрос по ОмГТУ</h2>
+		<label for="name">ФИО:</label>
+  		<input type="text" id="name" name="name" required>
+
+  		<label for="email">E-mail:</label>
+  		<input type="email" id="email" name="email" required>
+
+		<p>Какой факультет вы закончили или заканчиваете?</p>
+		<label><input type="checkbox" name="faculty" value="ФИТИКС">ФИТИКС</label>
+		<label><input type="checkbox" name="faculty" value="РТФ">РТФ</label>
+		<label><input type="checkbox" name="faculty" value="МСИ">МСИ</label>
+		<label><input type="checkbox" name="faculty" value="НХИ">НХИ</label>
+		<label><input type="checkbox" name="faculty" value="ФТНГ">ФТНГ</label>
+		<label><input type="checkbox" name="faculty" value="ФГО">ФГО</label>
+
+		<p>Какой курс вы заканчиваете?</p>
+		<label><input type="radio" name="year" value="1">1</label>
+		<label><input type="radio" name="year" value="2">2</label>
+		<label><input type="radio" name="year" value="3">3</label>
+		<label><input type="radio" name="year" value="4">4</label>
+	  
+		<p>Что вам нравится в ОмГТУ?</p>
+		<label><input type="checkbox" name="likes" value="Преподаватели">Преподаватели</label>
+		<label><input type="checkbox" name="likes" value="Дружелюбная атмосфера">Дружелюбная атмосфера</label>
+		<label><input type="checkbox" name="likes" value="Современное оборудование">Современное оборудование</label>
+		<label><input type="checkbox" name="likes" value="Возможности для развития">Возможности для развития</label>
+	  
+		 <p>Какую форму обучения вы выбрали или собираетесь выбрать?</p>
+  		<input type="radio" id="edu1" name="education" value="Очная">
+  		<label for="edu1">Очная</label><br>
+  		<input type="radio" id="edu2" name="education" value="Очно-заочная">
+  		<label for="edu2">Очно-заочная</label><br>
+ 		 <input type="radio" id="edu3" name="education" value="Заочная">
+ 		 <label for="edu3">Заочная</label><br>
+	  
+		<p>Какую дополнительную информацию вы бы хотели сообщить?</p>
+		<textarea name="additional-info" rows="4"></textarea>
+	  
+		<button type="submit">Отправить</button>
+	  </form>
+</body>
+</html>
